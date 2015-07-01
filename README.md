@@ -16,3 +16,4 @@ For more details refere to [Launchkey MK2 User Guide](http://d19ulaff0trnck.clou
 
 ### Notes
 - I tested on Launchkey 49 with Live 9.2.
+- for entering mode selection, doublie click top in-Controll button.
