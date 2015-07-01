@@ -1,6 +1,6 @@
-Quick and dirty port of Ableton Live Launchkey MK2 script to Launchkey MK1.
+Quick and dirty port of Ableton Live Launchkey MK2 script for Launchkey MK1.
 
-following new NK2 functions are aveilable for using with MK1.
+following new MK2 functions are aveilable for using with Launchkey MK1.
 
 - parameter bank select
 - device navigation
