@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# 2015.06.30 20:10:53 JST
-# Embedded file name: /Users/versonator/Jenkins/live/output/mac_64_static/Release/midi-remote-scripts/Launchkey_MK2/SessionComponent.py
 from _Framework.Util import index_if
 from _Framework.SessionComponent import SessionComponent as SessionComponentBase
 from .SceneComponent import SceneComponent
@@ -54,7 +52,3 @@ class SessionComponent(SessionComponentBase):
     def _update_stop_all_clips_button(self):
         button = self._stop_all_button
         button and button.set_light(self._stop_all_on_value if button.is_pressed() else self._stop_all_off_value)
-            
-# okay decompyling /Applications/Ableton Live 9 Suite.app/Contents/App-Resources/MIDI Remote Scripts/Launchkey_MK2/SessionComponent.pyc 
-# decompiled 1 files: 1 okay, 0 failed, 0 verify failed
-# 2015.06.30 20:10:53 JST

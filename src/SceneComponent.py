@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 from _Framework.SceneComponent import SceneComponent as SceneComponentBase
 from .ClipSlotComponent import ClipSlotComponent
 

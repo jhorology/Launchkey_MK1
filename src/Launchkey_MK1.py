@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# 2015.06.30 20:10:52 JST
-# Embedded file name: /Users/versonator/Jenkins/live/output/mac_64_static/Release/midi-remote-scripts/Launchkey_MK2/Launchkey_MK2.py
 from __future__ import with_statement
 from functools import partial
 from _Framework import Task
@@ -89,6 +87,7 @@ class Launchkey_MK1(OptimizedControlSurface):
         # self._bottom_launch_button.set_on_off_values(63, 4)
         self._session.set_mixer(self._mixer)
         self._session.set_enabled(True)
+        self.set_highlighting_session_component(self._session)
 
     def _setup_navigation(self):
         self._session_navigation = SessionNavigationComponent(is_enabled=False, name='Session_Navigation', layer=Layer(next_track_button=self._track_right_button, prev_track_button=self._track_left_button, next_scene_button=self._scene_down_button, prev_scene_button=self._scene_up_button))
@@ -254,6 +253,3 @@ class Launchkey_MK1(OptimizedControlSurface):
         self._extended_mode_button.turn_off()
         set_log_instance(None)
         super(Launchkey_MK1, self).disconnect()
-# okay decompyling /Applications/Ableton Live 9 Suite.app/Contents/App-Resources/MIDI Remote Scripts/Launchkey_MK2/Launchkey_MK2.pyc 
-# decompiled 1 files: 1 okay, 0 failed, 0 verify failed
-# 2015.06.30 20:10:53 JST

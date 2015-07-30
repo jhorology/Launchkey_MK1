@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-# 2015.06.30 20:10:52 JST
-# Embedded file name: /Users/versonator/Jenkins/live/output/mac_64_static/Release/midi-remote-scripts/Launchkey_MK2/ControlElementUtils.py
 from functools import partial
 import Live
 from _Framework.Dependency import depends
@@ -27,8 +25,8 @@ class PadButtonElement(ButtonElement):
     def turn_off(self):
         self._set_skin_light('DefaultButton.Disabled')
 
-    def send_balue(self, value):
-        self._set_skin_light('DefaultButton.Disabled')
+    # def send_value(self, value):
+    #     self._set_skin_light('DefaultButton.Disabled')
 
 
 @depends(skin=None)
@@ -44,6 +42,3 @@ def make_encoder(identifier, name = ''):
 
 def make_slider(identifier, name = '', channel = STANDARD_CHANNEL):
     return SliderElement(MIDI_CC_TYPE, channel, identifier, name=name)
-# okay decompyling /Applications/Ableton Live 9 Suite.app/Contents/App-Resources/MIDI Remote Scripts/Launchkey_MK2/ControlElementUtils.pyc 
-# decompiled 1 files: 1 okay, 0 failed, 0 verify failed
-# 2015.06.30 20:10:52 JST

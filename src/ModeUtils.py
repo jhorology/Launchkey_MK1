@@ -1,5 +1,4 @@
-# 2015.06.30 20:10:53 JST
-# Embedded file name: /Users/versonator/Jenkins/live/output/mac_64_static/Release/midi-remote-scripts/Launchkey_MK2/ModeUtils.py
+# -*- coding: utf-8 -*-
 from _Framework.Dependency import depends
 from _Framework.ModesComponent import ModesComponent, ModeButtonBehaviour
 import consts
@@ -77,6 +76,3 @@ class DisablingModesComponent(ModesComponent):
     def _on_mode_button_value(self, name, value, sender):
         if self._enabled_modes[name]:
             super(DisablingModesComponent, self)._on_mode_button_value(name, value, sender)
-# okay decompyling /Applications/Ableton Live 9 Suite.app/Contents/App-Resources/MIDI Remote Scripts/Launchkey_MK2/ModeUtils.pyc 
-# decompiled 1 files: 1 okay, 0 failed, 0 verify failed
-# 2015.06.30 20:10:53 JST
